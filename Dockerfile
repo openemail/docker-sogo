@@ -42,6 +42,7 @@ COPY ./bootstrap-sogo.sh /bootstrap-sogo.sh
 COPY syslog-ng.conf /etc/syslog-ng/syslog-ng.conf
 COPY supervisord.conf /etc/supervisor/supervisord.conf
 COPY acl.diff /acl.diff
+COPY theme-custom-sogo.css /usr/lib/GNUstep/SOGo/WebServerResources/css/theme-default.css
 COPY stop-supervisor.sh /usr/local/sbin/stop-supervisor.sh
 
 RUN chmod +x /bootstrap-sogo.sh \
