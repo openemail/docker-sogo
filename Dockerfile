@@ -35,7 +35,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     sogo \
     sogo-activesync \
   && apt-get autoclean \
-  && rm -rf /usr/lib/GNUstep/SOGo/WebServerResources/css/theme-default.css \
   && rm -rf /var/lib/apt/lists/* \
   && touch /etc/default/locale
 
