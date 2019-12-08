@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-LABEL maintainer "Chinthaka Deshapriya <chinthaka@cybergate.lk>"
+LABEL maintainer "Andre Peters <andre.peters@servercow.de>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV LC_ALL C
